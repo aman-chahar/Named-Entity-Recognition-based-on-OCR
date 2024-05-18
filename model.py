@@ -31,3 +31,4 @@ if uploaded_file is not None:
     st.write("Entities found:")
     for ent in doc.ents:
         st.write(f"{ent.text} ({ent.label_})")
+
